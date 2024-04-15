@@ -2,6 +2,7 @@
 import TitleCard from './Title-card.jsx'
 import Header from './Header.jsx';
 import Interlude from './Interlude.jsx';
+import Clock from './Clock.jsx';
 import {titles, content, images, interlude} from './text-contents.jsx';
 
 
@@ -13,6 +14,7 @@ function App() {
   return(
     <>
     <Header header = {headerTitle} subtitle = {headerSubtitle}/>
+    <Clock/>
     <TitleCard title={titles.intro} content={content.intro} image={images.intro}/>
     <Interlude content={interlude['content-mission']} subtitle={interlude['sub-mission']}/>
     <TitleCard title={titles.mission} content={content.mission} image = {images.mission}/>

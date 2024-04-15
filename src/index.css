@@ -39,10 +39,17 @@ a:hover{
   padding: 1%;
 }
 
+.clock{
+  font-size: 1.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2%;
+  margin: 0;
+}
+
 .header{
   display: flex;
   flex-direction: column;
-  margin: 2% auto 2% auto;
+  margin: 0 auto 0 auto;
   padding: 10px;
   width: min(75%, 500px);
   text-align: center;
@@ -107,11 +114,17 @@ a:hover{
   .header-title{
     font-size: 150%;
   }
+  .clock{
+    font-size: 1rem;
+  }
   p{
     font-size: 0.9rem;
   }
   .title{
     font-size: 1rem;
+  }
+  .title-card{
+    border-radius: 0;
   }
   .title-interlude{
     font-size: 1.2rem;
