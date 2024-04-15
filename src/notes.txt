@@ -1,0 +1,38 @@
+
+FOR GENERAL APP, HOW TO USE COMPONENTS WITH EACHOTHER
+
+// Essentially, jUst import the components here
+
+// Ther main.jsx runs the App.jsx, and everything is good
+
+// Write them like this and it works (this is AIDS)
+
+// nevermind, it does work
+// The server is just dumb
+
+// To return multiple things, use a fragment (empty brackets)
+
+// using props parameter, you pass them as html parameters in the return call
+
+// with this logic, you can control whether or not smth gets displayed
+
+COMPONENTS RELATED NOTES
+
+// to import css relevant to only one part, use a module
+// import styles from the css file
+// then take the relevant class from the styles.
+// Okay?
+
+// props to pass data, a parameters essentially
+
+// for debuging, use propTypes for security
+
+HOW TO USE HOOKS
+
+=> useState {
+    -> creates an array with a value and a setter func
+    -> the setter func can update the value in the DOM
+    -> which is impossible otherwise
+    -> when you want to update the value, call the setter func
+    -> that's pretty much it.
+}
